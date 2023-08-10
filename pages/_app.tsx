@@ -11,6 +11,7 @@ const red_hat_display = Red_Hat_Display({
 
 export default function App({Component, pageProps}: AppProps) {
   return (
+  <>
     <Head>
       <title>Frontend Mentor Challenge</title>
     </Head>
@@ -18,6 +19,7 @@ export default function App({Component, pageProps}: AppProps) {
     <main className={`${red_hat_display.variable} font-sans`}>
       <Component {...pageProps} />
     </main>
+  </>
   )
 
 }
