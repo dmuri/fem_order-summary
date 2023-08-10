@@ -15,7 +15,6 @@ export default function App({Component, pageProps}: AppProps) {
     <Head>
       <title>Frontend Mentor Challenge</title>
     </Head>
-
     <main className={`${red_hat_display.variable} font-sans`}>
       <Component {...pageProps} />
     </main>
